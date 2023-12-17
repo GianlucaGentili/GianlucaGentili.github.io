@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.body1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(221,25,111);
+background: radial-gradient(circle, rgba(221,25,111,1) 0%, rgba(229,148,233,1) 100%);
+}
+
+.body2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/893/870/original/valentine-s-day-red-hearts-background-free-vector.png);
+}
+
+.body3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(https://images.theconversation.com/files/121885/original/image-20160510-20731-1pf8nwv.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip);
+}
+
+.body4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(https://lh3.googleusercontent.com/p/AF1QipPPyVx8MwcinwdnGEhY-IbUzmMIZ218yL0jALvH=s1360-w1360-h1020);
+}
+
+.wrapper{
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2{
+    font-size: 30px;
+    color: #000000;
+    margin: 15px 10px;
+}
+
+.btn-group{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+button{
+    position: absolute;
+    width: 150px;
+    height: inherit;
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 30px;
+    border: 5px solid black;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+}
+
+button:nth-child(1){
+    margin-left: -200px;
+    background: #7d2ae8;
+}
+
+button:nth-child(2){
+    margin-right: -200px;
+    background: #7d2ae8;
+}
+
+.bg-wrapper{
+    background-image: url(https://i.pinimg.com/originals/6b/e8/9b/6be89b96350815f624315e0096b72cbc.gif);
+}
+
+.cat-pos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.cat-img{
+    width: 30%;
+}
+
+.flork-img{
+    width: 30%;
+    margin-top: 4%;
+}
+
+.bg2-wrapper{
+    background: url(https://www.momdot.com/wp-content/uploads/2021/05/shutterstock_1790978951.jpg);
+}
+
+.bg3-wrapper{
+    background-image: url(https://as2.ftcdn.net/v2/jpg/03/00/17/81/1000_F_300178175_ijKXD8RtsPfCdAa6WkOoPCRHy47NOQ7x.jpg);
+}
+
+.p-size{
+    font-size: 20px;
+}
+
+.text-wrap{
+    background-color: #7d2ae8;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: black;
+    border-style:inset;
+    border-width: 10px;
+}
+
+.text-wrap2{
+    background-color: #fcfcfc;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.bg4-wrapper{
+    background-image: url(https://media.istockphoto.com/id/1183742298/photo/chicken-nuggets.jpg?s=612x612&w=0&k=20&c=q9y-Y0AZQVEc08LTvQB7X9f9jiRpXMlZKmWlxgpIGoo=);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title4{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+    1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+}
+
+.flork-img2{
+    width: 4%;
+}
